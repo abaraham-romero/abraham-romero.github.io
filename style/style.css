@@ -4,7 +4,29 @@ body {
 
 header {
 	height: 20vh;
-	border-bottom:
+	background-color: #f3f3ec;
+	min-height: 225px;
+	box-shadow: 0px 0.5px 1.5px rgba(0, 0, 0, 0.4);
+}
+
+#morePosts {
+	padding-top: 36px;
+	background-color: #f4f4ee;
+}
+
+footer {
+	background-color: #eaeade;
+	padding-top: 5px;
+	box-shadow: 0px 0.5px 1.5px rgba(0, 0, 0, 0.4);
+}
+footer li {
+	display: inline;
+	padding-right: 16px;
+	font-family: "Roboto", sans-serif;
+	opacity: 0.8;
+}
+footer ul {
+	float: right;
 }
 
 #leftHeader, nav {
@@ -138,7 +160,7 @@ s}
 		padding-top: 250px;
 		background-image: 
 			linear-gradient(
-				rgba(255, 227, 235, 0.2),
+				rgba(255, 227, 235, 0.3),
      			rgba(0, 0, 0, .95)
     		),
     		url("assets/img/verdugo.jpg");
@@ -160,7 +182,7 @@ s}
 		padding-top: 250px;
 		background-image: 
 			linear-gradient(
-				rgba(251, 236, 188, 0.5),
+				rgba(251, 236, 188, 0.4),
 				rgba(0, 0, 0, 0.7)
 				),
 			url("assets/img/tiemposfelices.jpg");
@@ -222,6 +244,55 @@ s}
 		color: #fffefb;
 		line-height: 0;
 		text-align: left;
+		opacity: 0.8;
+	}
+	h5 {
+		padding: 0 9vw;
+		font-family: "Roboto", serif;
+		font-size: 36px;
+		background-color: #f4f4ee;
+		width: 100vw;
+		padding-top: 36px;
+		margin-bottom: 0px;
+		box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+
+	}
+	h6 {
+		margin: 24px 0px 0px 10vw;
+		font-family: "Italiana", sans-serif;
+		font-size: 24px;
+	}
+	.subDate {
+		font-family: "Roboto", serif;
+		margin-left: 10vw;
+		padding-top: 0;
+		margin-top: 0;
+		font-style: italic;
+	}
+	.morePostImgBox {
+		padding-left: 9vw;
+		padding-bottom: 16px;
+	}
+	.morePostImgBox2 {
+		padding-left: 0;
+		padding-right: 9vw;
+	}
+	.morePostImg {
+		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+		width: 144px;
+		height: 216px;
+		float: left;
+		margin-right: 10px;
+	}
+	.morePostHead {
+		font-family: "Italiana", serif;
+		font-size: 24px;
+		padding: 0;
+		margin: 0;
+	}
+	.morePostDate {
+		font-family: "Roboto", sans-serif;
+		font-size: 16px;
 		opacity: 0.8;
 	}
 }
