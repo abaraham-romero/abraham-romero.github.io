@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Abraham Romero</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Andalusian Puppies</title>
+		<link rel="stylesheet" href="style/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	</head>
 	<body>
-		<p>¡Hi! My name is Abe, and this is my personal blog.</p>
+		<header class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6" id="leftHeader">
+					<a href="index.html"><p id="logo"><span id="logoTop">Andalusian</span> <br />
+						<span id="logoBottom">Puppies</span></p></a>
+				</div>
+				<nav class="col-sm-6 hidden-xs">
+					<ul>
+						<li id="reviewsLink"><a href="reviews/reviews.html">Reviews</a></li>
+						<li id="netflixeandoLink"><a href="netflixeando/netflixeando.html">Netflixeando</a></li>
+						<li id="longformLink"><a href="longform/longform.html">Longform</a></li>
+						<li id="cortometrajeLink"><a href="cortometraje/cortometraje.html">Cortometraje</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="container-fluid">	
+			<div class="row highlightRow">
+				<div class="col-sm-8 longformDIV">
+					<div class="longformCard">
+						<h1>An Essay on Luis García Berlanga's The Executioner</h1>
+						<h2>February 16, 2017</h2>
+					</div>
+				</div>
+				<div class="col-sm-4 sideDIV">
+					<div class="sideCard">
+						<h3>Netflixeando:<br />
+								Happy Times</h3>
+						<h4>February 15, 2017</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- <section class="container-fluid" id="highlight">
+			<div class="row">
+					<div class="col-sm-8" id="longformBox">
+						<h1>An Essay on Luis García Berlanga's The Executioner</h1>
+						<h2>February 16, 2017</h2>
+					</div>
+					<div class="col-sm-4" id="smallHighlightBox">
+						<h3>Netflixeando:<br />
+							Happy Times</h3>
+						<h4>February 15, 2017</h4>
+					</div>
+			</div>
+		</section> -->
+		<section class="container-fluid">
+			<div class="row smallCardRow">
+				<div class="col-sm-4 postTest">
+					<div class="postTestCard" id="cardA">
+						<p class="postTestHead">Neruda: A film by Pablo Larraín</p>
+						<p class="postTestDate">February 14, 2017</p>
+					</div>
+				</div>
+				<div class="col-sm-4 postTest">
+					<div class="postTestCard" id="cardB">
+						<p class="postTestHead">Julieta: A film by Pedro Almodóvar</p>
+						<p class="postTestDate">February 13, 2017</p>
+					</div>
+				</div>
+				<div class="col-sm-4 postTest">
+					<div class="postTestCard" id="cardC">
+						<p class="postTestHead">Elvira, I Will Give You My Life But I'm Using It: <br />
+							A film by Manolo Caro</p>
+						<p class="postTestDate">February 12, 2017</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--<section class="container-fluid">
+			<div class="row postRowFirst">
+				<div class="col-sm-4 postLeft">
+					<p class="postTitle">Neruda: A film by Pablo Larraín</p>
+					<p class="postDate">February 13, 2017</p>
+				</div>
+				<div class="col-sm-4 postCenter">
+					<p class="postTitle">Neruda: A film by Pablo Larraín</p>
+					<p class="postDate">February 13, 2017</p>
+				</div>
+				<div class="col-sm-4 postRight">
+					<p class="postTitle">Neruda: A film by Pablo Larraín</p>
+					<p class="postDate">February 13, 2017</p>
+				</div>
+			</div>
+		</section>-->
+		<script src="js/bootstrap.js"></script>
 	</body>
 </html>
